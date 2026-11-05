@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 15px;
+    color: black;
+}
+
+.conteudo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+.caixa {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+div:hover {
+    background-color: rgb(25, 0, 255);
+}
+
+.conteudo-pos {
+    position: relative;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.caixa-absoluta {
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+}
+
+.pos1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.pos2 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+table {
+    width: 100%;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
