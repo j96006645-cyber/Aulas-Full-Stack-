@@ -1,0 +1,30 @@
+
+body {
+    background-color: white;
+    font-size: 12pt;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+
+.html {
+    border: 2px dashed red;
+    padding: 20px;
+}
+
+
+#teste {
+    color: red;
+    margin-top: 30pt;
+}
+
+
+a:hover {
+    color: yellow;
+}
